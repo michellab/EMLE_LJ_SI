@@ -2,15 +2,7 @@
 
 
 $$
--
-f_6(x_{ii})\frac{C^{\text{XDM}}_{6,ii}}{r^{6}}
--
-f_8(x_{ii})\frac{C^{\text{XDM}}_{8,ii}}{r^{8}}
--
-f_{10}(x_{ii})\frac{C^{\text{XDM}}_{10,ii}}{r^{10}}
-=
--
-\frac{C^{\text{LJ}}_{6,ii}}{r}
+-f_6(x_{ii})\frac{C^{\text{XDM}}_{6,ii}}{r^{6}}-f_8(x_{ii})\frac{C^{\text{XDM}}_{8,ii}}{r^{8}}-f_{10}(x_{ii})\frac{C^{\text{XDM}}_{10,ii}}{r^{10}}=-\frac{C^{\text{LJ}}_{6,ii}}{r}
 $$
 
 where $f_n$ is the Tang-Toennies damping function of order $n$, which reads:
