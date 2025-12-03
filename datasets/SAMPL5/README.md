@@ -25,7 +25,7 @@ Work on identifying protomers and tautomers has already been carried out, for ex
 | SAMPL5_002 | CCOC(=O)c1c(c2c(c(c(nc2s1)C)C)C)N |
 
 
-![Curated dataset](SAMPL5_curated.png)
+![Curated dataset](molecules_grid.svg)
 
 
 ## References
