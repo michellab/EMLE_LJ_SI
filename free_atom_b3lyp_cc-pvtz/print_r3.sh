@@ -1,10 +1,9 @@
 #!/bin/bash
+# Create README.md file with <r^3> values for each element.
 
-# Output markdown table header
 echo "| Element | <r^3> [Bohr^3] |"
 echo "|---------|----------------|"
 
-# Loop through each element directory
 for dir in c h n o s; do
     if [ -d "$dir" ]; then
         cd "$dir"
