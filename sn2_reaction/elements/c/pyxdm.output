@@ -1,0 +1,46 @@
+2026-03-31 16:28:07 INFO     pyxdm.logger                   
+2026-03-31 16:28:07 INFO     pyxdm.logger                   
+2026-03-31 16:28:07 INFO     pyxdm.logger                   +=====================================================+
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |                                                     |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |                                                     |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |  __________        ____  ___________      _____     |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |  \______   \___.__.\   \/  /\______ \    /     \    |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |   |     ___<   |  | \     /  |    |  \  /  \ /  \   |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |   |    |    \___  | /     \  |    `   \/    Y    \  |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |   |____|    / ____|/___/\  \/_______  /\____|__  /  |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |             \/           \_/        \/         \/   |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |                                                     |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |                                                     |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   |  version: 0.1.2                                     |
+2026-03-31 16:28:07 INFO     pyxdm.logger                   +=====================================================+
+2026-03-31 16:28:07 INFO     pyxdm.logger                   
+2026-03-31 16:28:07 INFO     pyxdm.logger                   
+2026-03-31 16:28:07 INFO     pyxdm.core.session             Using Becke grid with 5214 points
+2026-03-31 16:28:07 INFO     pyxdm.core.core                Assuming open-shell configuration.
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting         Loaded molecule information:
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting         No. of atoms: 1
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting         Atomic numbers: [6]
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting         Pseudo atomic numbers: [6.]
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting         
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting         Coordinates [bohr]
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting                       x             y             z
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting         C  5.179172E+01  2.405621E+00  5.264021E+01
+2026-03-31 16:28:07 INFO     pyxdm.utils.formatting         
+2026-03-31 16:28:07 INFO     pyxdm.cli                      +------------------------------------------------+
+2026-03-31 16:28:07 INFO     pyxdm.cli                      |                AIM Scheme: MBIS                |
+2026-03-31 16:28:07 INFO     pyxdm.cli                      +------------------------------------------------+
+2026-03-31 16:28:07 INFO     pyxdm.cli                      
+2026-03-31 16:28:07 INFO     pyxdm.cli                                  Charge [e]  Population [e]
+2026-03-31 16:28:07 INFO     pyxdm.cli                      C        -1.458189E-09    6.000000E+00
+2026-03-31 16:28:07 INFO     pyxdm.cli                      Σ_atoms  -1.458189E-09    6.000000E+00
+2026-03-31 16:28:07 INFO     pyxdm.cli                      
+2026-03-31 16:28:07 INFO     pyxdm.cli                      
+2026-03-31 16:28:07 INFO     pyxdm.cli                                     <M1^2>        <M2^2>        <M3^2>
+2026-03-31 16:28:07 INFO     pyxdm.cli                      C        8.381480E+00  9.939409E+01  1.514273E+03
+2026-03-31 16:28:07 INFO     pyxdm.cli                      Σ_atoms  8.381480E+00  9.939409E+01  1.514273E+03
+2026-03-31 16:28:07 INFO     pyxdm.cli                      
+2026-03-31 16:28:07 INFO     pyxdm.cli                      Total wall time: 0.15 seconds
+2026-03-31 16:28:07 INFO     pyxdm.utils.io                 Writing results to orca.molden.input.h5
+2026-03-31 16:28:07 INFO     pyxdm.cli                      +------------------------------------------------+
+2026-03-31 16:28:07 INFO     pyxdm.cli                      |       PyXDM terminated successfully! :)        |
+2026-03-31 16:28:07 INFO     pyxdm.cli                      +------------------------------------------------+

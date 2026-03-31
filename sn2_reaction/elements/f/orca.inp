@@ -1,0 +1,13 @@
+!uks  wB97M-D3BJ def2-TZVPPD  TIGHTSCF  NoFrozenCore KeepDens AIM
+%MaxCore 1024
+%pal
+nprocs 8
+end
+%elprop
+Polar 1
+dipole true
+quadrupole true
+end
+
+* xyzfile 0 2 f.xyz
+

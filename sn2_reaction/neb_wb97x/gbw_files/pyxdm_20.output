@@ -1,0 +1,61 @@
+2026-03-12 13:05:20 INFO     pyxdm.logger                   
+2026-03-12 13:05:20 INFO     pyxdm.logger                   
+2026-03-12 13:05:20 INFO     pyxdm.logger                   +=====================================================+
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |                                                     |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |                                                     |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |  __________        ____  ___________      _____     |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |  \______   \___.__.\   \/  /\______ \    /     \    |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |   |     ___<   |  | \     /  |    |  \  /  \ /  \   |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |   |    |    \___  | /     \  |    `   \/    Y    \  |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |   |____|    / ____|/___/\  \/_______  /\____|__  /  |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |             \/           \_/        \/         \/   |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |                                                     |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |                                                     |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   |  version: 0.1.2                                     |
+2026-03-12 13:05:20 INFO     pyxdm.logger                   +=====================================================+
+2026-03-12 13:05:20 INFO     pyxdm.logger                   
+2026-03-12 13:05:20 INFO     pyxdm.logger                   
+2026-03-12 13:05:20 INFO     pyxdm.core.session             Using Becke grid with 24238 points
+2026-03-12 13:05:20 INFO     pyxdm.core.core                Assuming closed-shell configuration.
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         Loaded molecule information:
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         No. of atoms: 6
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         Atomic numbers: [ 6 17  1  1  1  9]
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         Pseudo atomic numbers: [ 6. 17.  1.  1.  1.  9.]
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         Coordinates [bohr]
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting                         x              y              z
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         C   -7.278701E-01  -1.610813E-03   1.143634E-02
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         Cl   4.505396E+00   9.248355E-03  -6.699332E-02
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         H   -8.538434E-02  -1.496662E+00   1.258852E+00
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         H   -1.378581E-01  -3.411740E-01  -1.922461E+00
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         H   -1.019972E-01   1.837470E+00   6.675061E-01
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         F   -3.452286E+00  -7.271249E-03   5.165930E-02
+2026-03-12 13:05:22 INFO     pyxdm.utils.formatting         
+2026-03-12 13:05:22 INFO     pyxdm.cli                      +------------------------------------------------+
+2026-03-12 13:05:22 INFO     pyxdm.cli                      |                AIM Scheme: MBIS                |
+2026-03-12 13:05:22 INFO     pyxdm.cli                      +------------------------------------------------+
+2026-03-12 13:05:23 INFO     pyxdm.cli                      
+2026-03-12 13:05:23 INFO     pyxdm.cli                                  Charge [e]  Population [e]
+2026-03-12 13:05:23 INFO     pyxdm.cli                      C        -1.438896E-01    6.143890E+00
+2026-03-12 13:05:23 INFO     pyxdm.cli                      Cl       -9.743260E-01    1.797433E+01
+2026-03-12 13:05:23 INFO     pyxdm.cli                      H         1.460889E-01    8.539111E-01
+2026-03-12 13:05:23 INFO     pyxdm.cli                      H         1.456523E-01    8.543477E-01
+2026-03-12 13:05:23 INFO     pyxdm.cli                      H         1.460549E-01    8.539451E-01
+2026-03-12 13:05:23 INFO     pyxdm.cli                      F        -3.203363E-01    9.320336E+00
+2026-03-12 13:05:23 INFO     pyxdm.cli                      Σ_atoms  -1.000756E+00    3.600076E+01
+2026-03-12 13:05:23 INFO     pyxdm.cli                      
+2026-03-12 13:05:27 INFO     pyxdm.cli                      
+2026-03-12 13:05:27 INFO     pyxdm.cli                                     <M1^2>        <M2^2>        <M3^2>
+2026-03-12 13:05:27 INFO     pyxdm.cli                      C        5.749243E+00  9.039446E+01  2.029119E+03
+2026-03-12 13:05:27 INFO     pyxdm.cli                      Cl       1.692903E+01  3.517185E+02  1.047791E+04
+2026-03-12 13:05:27 INFO     pyxdm.cli                      H        1.077006E+00  4.768295E+00  4.021679E+01
+2026-03-12 13:05:27 INFO     pyxdm.cli                      H        1.077772E+00  4.772513E+00  4.027661E+01
+2026-03-12 13:05:27 INFO     pyxdm.cli                      H        1.077472E+00  4.769520E+00  4.021983E+01
+2026-03-12 13:05:27 INFO     pyxdm.cli                      F        5.395810E+00  3.720486E+01  3.368172E+02
+2026-03-12 13:05:27 INFO     pyxdm.cli                      Σ_atoms  3.130633E+01  4.936281E+02  1.296456E+04
+2026-03-12 13:05:27 INFO     pyxdm.cli                      
+2026-03-12 13:05:27 INFO     pyxdm.cli                      Total wall time: 6.81 seconds
+2026-03-12 13:05:27 INFO     pyxdm.utils.io                 Writing results to neb_im20.molden.input.h5
+2026-03-12 13:05:27 INFO     pyxdm.cli                      +------------------------------------------------+
+2026-03-12 13:05:27 INFO     pyxdm.cli                      |       PyXDM terminated successfully! :)        |
+2026-03-12 13:05:27 INFO     pyxdm.cli                      +------------------------------------------------+
