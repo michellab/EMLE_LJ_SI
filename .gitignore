@@ -1,3 +1,5 @@
 # Ignore extracted directory and archive
 sdfs_and_xdm_dir/
 sdfs_and_xdm_dir.tar.gz
+trajs_*/
+process_trajs/
