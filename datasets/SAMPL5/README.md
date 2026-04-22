@@ -24,6 +24,20 @@ Work on identifying protomers and tautomers has already been carried out, for ex
 | SAMPL5_055 | c1ccc2c(c1)ncc(n2)C(=O)N |
 | SAMPL5_002 | CCOC(=O)c1c(c2c(c(c(nc2s1)C)C)C)N |
 
+From this 17-molecule subset, we further select the 10 compounds with the highest logP error as predicted by OpenFF-2.0.0, which are listed in the table below.
+
+| Molecule ID | SMILES |
+|-------------|--------|
+| SAMPL5_058 | c1ccc(cc1)n2c(=O)c3ccccc3cn2 |
+| SAMPL5_074 | c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N |
+| SAMPL5_020 | CCCC(=O)Nc1nc2ccc(cc2s1)C(C)C |
+| SAMPL5_080 | Cn1cnc2c1c(=O)n(c(=O)n2C)C |
+| SAMPL5_021 | Cc1nn2cc(nc2s1)c3cccc(c3)OC |
+| SAMPL5_071 | CCOc1cc(c(cc1N2CCOCC2)OCC)N |
+| SAMPL5_046 | CSc1ccc(cc1)CC(=O)Nc2c3ccsc3ncn2 |
+| SAMPL5_090 | Cc1cc2c(cc1C)nc(c(n2)c3ccccn3)c4ccccn4 |
+| SAMPL5_019 | Cc1ccc(cc1)Nc2ccnc(n2)Nc3ccc(cc3)C |
+| SAMPL5_068 | c1ccc(cc1)c2c(nnc(n2)c3ccccn3)c4ccccc4 |
 
 ![Curated dataset](molecules_grid.svg)
 
