@@ -24,12 +24,11 @@ Work on identifying protomers and tautomers has already been carried out, for ex
 | SAMPL5_055 | c1ccc2c(c1)ncc(n2)C(=O)N |
 | SAMPL5_002 | CCOC(=O)c1c(c2c(c(c(nc2s1)C)C)C)N |
 
-From this 17-molecule subset, we further select the 10 compounds with the highest logP error as predicted by OpenFF-2.0.0, which are listed in the table below.
+From this 17-molecule subset, we further select 9 compounds for testing, which are listed in the table below.
 
 | Molecule ID | SMILES |
 |-------------|--------|
 | SAMPL5_058 | c1ccc(cc1)n2c(=O)c3ccccc3cn2 |
-| SAMPL5_074 | c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N |
 | SAMPL5_020 | CCCC(=O)Nc1nc2ccc(cc2s1)C(C)C |
 | SAMPL5_080 | Cn1cnc2c1c(=O)n(c(=O)n2C)C |
 | SAMPL5_021 | Cc1nn2cc(nc2s1)c3cccc(c3)OC |
