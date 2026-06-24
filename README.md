@@ -2,7 +2,7 @@
 
 This repository contains the supporting data, models, and figure generation code for the publication titled ["Atomic Environment Aware Lennard-Jones Parameterization for Electrostatic Embedding ML/MM Simulations"](https://doi.org/10.26434/chemrxiv.15004404/v1).
 
-![Abstract](./abstract.png)
+![Abstract](./figures/toc_graphical_abstract.png)
 
 ## Directory Structure
 
