@@ -2,7 +2,7 @@
 
 ## Dataset curation
 
-Work on identifying protomers and tautomers has already been carried out, for example, in [this study](https://link.springer.com/article/10.1007/s10822-016-9954-8) (see the section *“Consideration of tautomers after SAMPL5”*). Using the authors’ [public data](https://github.com/samplchallenges/SAMPL5_logD_PredictionAnalysis), and restricting the analysis to EMLE-supported molecules whose logD values differ by less than 0.01 from logP after pKa and state-penalty corrections, we obtain the following 17-molecule subset. For these compounds, logP should serve as a reasonably accurate approximation of logD.
+Work on identifying protomers and tautomers has already been carried out, for example, in [this study](https://link.springer.com/article/10.1007/s10822-016-9954-8) (see the section *“Consideration of tautomers after SAMPL5”*). Using the authors' [public data](https://github.com/samplchallenges/SAMPL5_logD_PredictionAnalysis), and restricting the analysis to EMLE-supported molecules whose logD values differ by less than 0.01 from logP after pKa and state-penalty corrections, we obtain the following 17-molecule subset. For these compounds, logP should serve as a reasonably accurate approximation of logD.
 
 | Molecule ID | SMILES |
 |-------------|--------|
