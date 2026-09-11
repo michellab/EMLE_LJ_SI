@@ -1,0 +1,53 @@
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+=== propane (CCC) T = 231.0 K, P = 1 atm ===
+Running OpenFF-2.0.0 (openff-2.0.0.offxml) ...
+OpenFF-2.0.0 vdW parameters (molecule atom types):
+  n16    sigma =   3.3795 A   epsilon =   0.4554 kJ/mol
+  n2     sigma =   2.6445 A   epsilon =   0.0660 kJ/mol
+propane | OpenFF-2.0.0: density = 0.5635 +/- 0.0003 g/mL (n=3)
+propane | OpenFF-2.0.0: Hvap    = 18.5367 +/- 0.1760 kJ/mol (n=3)
+Running EMLE/XDM (openff-2.0.0-emle-xdm-propane.offxml) ...
+EMLE/XDM vdW parameters (molecule atom types):
+  n16    sigma =   3.1629 A   epsilon =   0.5965 kJ/mol
+  n2     sigma =   2.6511 A   epsilon =   0.0809 kJ/mol
+propane | EMLE/XDM: density = 0.5945 +/- 0.0001 g/mL (n=3)
+propane | EMLE/XDM: Hvap    = 20.6412 +/- 0.0787 kJ/mol (n=3)
+=== butane (CCCC) T = 273.0 K, P = 1 atm ===
+Running OpenFF-2.0.0 (openff-2.0.0.offxml) ...
+OpenFF-2.0.0 vdW parameters (molecule atom types):
+  n16    sigma =   3.3795 A   epsilon =   0.4554 kJ/mol
+  n2     sigma =   2.6445 A   epsilon =   0.0660 kJ/mol
+butane | OpenFF-2.0.0: density = 0.5825 +/- 0.0001 g/mL (n=3)
+butane | OpenFF-2.0.0: Hvap    = 21.3120 +/- 0.3773 kJ/mol (n=3)
+Running EMLE/XDM (openff-2.0.0-emle-xdm-butane.offxml) ...
+EMLE/XDM vdW parameters (molecule atom types):
+  n16    sigma =   3.1250 A   epsilon =   0.5860 kJ/mol
+  n2     sigma =   2.7279 A   epsilon =   0.0802 kJ/mol
+butane | EMLE/XDM: density = 0.5595 +/- 0.0004 g/mL (n=3)
+butane | EMLE/XDM: Hvap    = 20.8629 +/- 0.2482 kJ/mol (n=3)
+=== hexane (CCCCCC) T = 261.0 K, P = 1 atm ===
+Running OpenFF-2.0.0 (openff-2.0.0.offxml) ...
+OpenFF-2.0.0 vdW parameters (molecule atom types):
+  n16    sigma =   3.3795 A   epsilon =   0.4554 kJ/mol
+  n2     sigma =   2.6445 A   epsilon =   0.0660 kJ/mol
+hexane | OpenFF-2.0.0: density = 0.6816 +/- 0.0003 g/mL (n=3)
+hexane | OpenFF-2.0.0: Hvap    = 32.8278 +/- 1.2181 kJ/mol (n=3)
+Running EMLE/XDM (openff-2.0.0-emle-xdm-hexane.offxml) ...
+EMLE/XDM vdW parameters (molecule atom types):
+  n16    sigma =   3.1009 A   epsilon =   0.5633 kJ/mol
+  n2     sigma =   2.7590 A   epsilon =   0.0808 kJ/mol
+hexane | EMLE/XDM: density = 0.6275 +/- 0.0002 g/mL (n=3)
+hexane | EMLE/XDM: Hvap    = 29.0616 +/- 1.3995 kJ/mol (n=3)
+=== isobutane (CC(C)C) T = 298.0 K, P = 1 atm ===
+Running OpenFF-2.0.0 (openff-2.0.0.offxml) ...
+OpenFF-2.0.0 vdW parameters (molecule atom types):
+  n16    sigma =   3.3795 A   epsilon =   0.4554 kJ/mol
+  n2     sigma =   2.6445 A   epsilon =   0.0660 kJ/mol
+isobutane | OpenFF-2.0.0: density = 0.5518 +/- 0.0007 g/mL (n=3)
+isobutane | OpenFF-2.0.0: Hvap    = 23.4818 +/- 0.3145 kJ/mol (n=3)
+Running EMLE/XDM (openff-2.0.0-emle-xdm-isobutane.offxml) ...
+EMLE/XDM vdW parameters (molecule atom types):
+  n16    sigma =   3.1182 A   epsilon =   0.6138 kJ/mol
+  n2     sigma =   2.7044 A   epsilon =   0.0805 kJ/mol
+isobutane | EMLE/XDM: density = 0.5483 +/- 0.0003 g/mL (n=3)
+isobutane | EMLE/XDM: Hvap    = 23.9877 +/- 0.2605 kJ/mol (n=3)
