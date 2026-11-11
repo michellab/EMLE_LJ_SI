@@ -1,0 +1,5 @@
+!b3lyp TightSCF cc-pvtz
+
+*xyz -1 2
+S 0.0 0.0 0.0
+*

@@ -1,0 +1,5 @@
+!b3lyp TightSCF cc-pvtz
+
+*xyz ${charge} ${mult}
+${element} 0.0 0.0 0.0
+*

@@ -9,6 +9,7 @@ This repository contains the supporting data, models, and figure generation code
 - `emle_models/`: Contains the various EMLE models used as starting points in this study.
 - `datasets/`: Contains the SAMPL5 dataset used for testing the EMLE models. Information about the training dataset is available in the [`supporting repository of the preceding paper`](https://github.com/michellab/EMLE_HFE_SI).
 - `figures/`: Contains notebooks used to generate the figures presented in the publication, along with the figures themselves.
+- `pyxdm_postg_comparison/`: Contains the scripts, geometries, and analysis used to compare PyXDM and postg XDM implementations.
 - `sn2_reaction`: Contains the calculations and notebooks used to generate the SN2 reaction results presented in the publication.
 - `training/`: Contains the scripts and notebooks used for training, as well as the various EMLE models trained in this study.
 

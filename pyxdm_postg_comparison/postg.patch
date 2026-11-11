@@ -1,0 +1,70 @@
+diff --git a/meshmod.f90 b/meshmod.f90
+index 5829533..0eb24b8 100644
+--- a/meshmod.f90
++++ b/meshmod.f90
+@@ -37,6 +37,8 @@ contains
+     integer :: nr, nang, ir, il, istat, mang, mr
+     real*8 :: cutoff(m%n,m%n), x(3)
+     real*8, allocatable :: meshrl(:,:,:), meshx(:,:,:,:)
++    character*(1024) :: meshfile
++    integer :: lmesh
+ 
+     ! interatomic distances
+     rr = 0d0
+@@ -219,6 +221,17 @@ contains
+        enddo
+     enddo
+ 
++    ! Write the mesh (x y z w in bohr, one point per line) if POSTG_DUMP_MESH is set
++    call get_environment_variable("POSTG_DUMP_MESH",meshfile,lmesh)
++    if (lmesh > 0) then
++       open(unit=98,file=meshfile(1:lmesh),status='replace',action='write')
++       write(98,'("# postg mesh: x y z w (bohr), ",I10," points")') mesh%n
++       do kk = 1, mesh%n
++          write(98,'(4(1X,ES25.16E3))') mesh%x(:,kk), mesh%w(kk)
++       enddo
++       close(98)
++    end if
++
+   end function genmesh
+ 
+   subroutine rmesh(n,rmid,r,wintr)
+diff --git a/wfnmod.f90 b/wfnmod.f90
+index abea106..dc7571b 100644
+--- a/wfnmod.f90
++++ b/wfnmod.f90
+@@ -179,6 +179,9 @@ contains
+     character*2 :: compar
+     logical :: ok
+     integer :: isenv
++    character*(mline) :: wfile
++    integer :: lwfile, nat
++    real*8, allocatable :: wts(:,:)
+ 
+     allocate(hirsh(mesh%n),promol(mesh%n),stat=istat)
+     if (istat /= 0) call error('atomin','could not allocate hirsh/promol',2)
+@@ -242,6 +245,24 @@ contains
+        read(imosa) (hirsh(j),j=1,mesh%n)
+        write(ihrsh) (hirsh(j)/max(promol(j),1d-40),j=1,mesh%n)
+     enddo
++
++    ! Write the Hirshfeld weights (one point per line, one column per atom) if POSTG_DUMP_WEIGHTS is set
++    call get_environment_variable("POSTG_DUMP_WEIGHTS",wfile,lwfile)
++    if (lwfile > 0) then
++       nat = count(m%z(1:m%n) >= 1)
++       allocate(wts(nat,mesh%n))
++       rewind(ihrsh)
++       do i = 1, nat
++          read(ihrsh) (wts(i,j),j=1,mesh%n)
++       enddo
++       open(unit=98,file=wfile(1:lwfile),status='replace',action='write')
++       write(98,'("# postg Hirshfeld weights: ",I10," points, ",I6," atoms (one column per atom)")') mesh%n, nat
++       do j = 1, mesh%n
++          write(98,'(*(1X,ES25.16E3))') wts(:,j)
++       enddo
++       close(98)
++       deallocate(wts)
++    end if
+     deallocate(hirsh,promol)
+     close(imosa)
+ 
